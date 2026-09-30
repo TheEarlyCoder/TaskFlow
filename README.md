@@ -73,7 +73,7 @@ Backend: `http://localhost:8000`
 ## 📸 Screenshot
 
 ```markdown
-![TaskFlow Dashboard](screenshots/image.png)
+![TaskFlow Dashboard](image.png)
 ```
 
 ## 🔮 Future Improvements
