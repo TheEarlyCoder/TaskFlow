@@ -72,7 +72,13 @@ Backend: `http://localhost:8000`
 
 ## 📸 Screenshot
 
+<<<<<<< HEAD
 ![Dashboard Preview](image.png)
+=======
+```markdown
+![TaskFlow Dashboard](image.png)
+```
+>>>>>>> cef118cf5a5e0bc685e8cce9a3d1cfce80ebdd21
 
 ## 🔮 Future Improvements
 
