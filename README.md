@@ -74,10 +74,6 @@ Backend: `http://localhost:8000`
 
 ![Dashboard Preview](image.png)
 
-```markdown
-![TaskFlow Dashboard](screenshots/image.png)
-```
-
 ## 🔮 Future Improvements
 
 - Task priorities and due dates
