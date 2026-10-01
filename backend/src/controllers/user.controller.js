@@ -37,11 +37,12 @@ const loginUser = asyncHandler(async(req, res)=> {
     const options = {
         httpOnly: true,
         secure: true,
-        sameSite: "none"
+        sameSite: "none",
+        path: "/",
     }
     return res
     .status(200)
-    .cookie("accessToken", accessToken, options)
+    .cookie("accessToken", accessToken, {...options, maxAge: 24 * 60 * 60 * 1000})
     .json({
         success: true,
         message: "User Logged In Successfully",
